@@ -43,7 +43,7 @@
 				<xs:element ref="took_office" />
 				<xs:element ref="left_office" />
 				<xs:element ref="party" />
-				<xs:element ref="term" /> <!-- allow more than 1 -->				
+				<xs:element ref="term" maxOccurs="unbound"/>		
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
