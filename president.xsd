@@ -10,4 +10,36 @@
 
 	<!-- definition of simple attributes -->
 	<xs:attribute name="date" type="xs:date" />
+	
+	<!-- definition of complex elements -->
+	<xs:element name="term">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="number" />
+				<xs:element ref="vice_president" />				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="president">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="number" />
+				<xs:element ref="name" />
+				<xs:element ref="took_office" />
+				<xs:element ref="left_office" />
+				<xs:element ref="party" />
+				<xs:element ref="term" /> <!-- allow more than 1 -->				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="presidents">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbound">
+				<xs:element ref="president" />
+			</xs:sequence>
+			<xs:attribute ref="date" use="required" />
+		</xs:complexType>
+	</xs:element>
 </xs:schema>
