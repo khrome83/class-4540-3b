@@ -43,15 +43,15 @@
 				<xs:element ref="took_office" />
 				<xs:element ref="left_office" />
 				<xs:element ref="party" />
-				<xs:element ref="term" maxOccurs="unbound"/>		
+				<xs:element ref="term" minOccurs="1" maxOccurs="unbound"/>		
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="presidents">
 		<xs:complexType>
-			<xs:sequence minOccurs="1" maxOccurs="unbound">
-				<xs:element ref="president" />
+			<xs:sequence>
+				<xs:element ref="president" minOccurs="1" maxOccurs="unbound" />
 			</xs:sequence>
 			<xs:attribute ref="date" use="required" />
 		</xs:complexType>
