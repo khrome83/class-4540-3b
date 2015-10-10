@@ -3,8 +3,11 @@
 	<!-- definition of simple elements -->
 	<xs:element name="number" type="xs:string" /><!-- make number -->
 	<xs:element name="name" type="xs:string" />
-	<xs:element name="took_office" type="xs:string" /><!-- make date -->
-	<xs:element name="left_office" type="xs:string" /><!-- make date -->
+	<xs:element name="took_office" type="xs:date" />
+	<xs:element name="left_office" type="xs:date" />
 	<xs:element name="party" type="xs:string" />
 	<xs:element name="vice_president" type="xs:string" />
+
+	<!-- definition of simple attributes -->
+	<xs:attribute name="date" type="xs:date" />
 </xs:schema>
