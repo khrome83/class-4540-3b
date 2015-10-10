@@ -8,11 +8,19 @@
 			</xs:restriction>
 		</xs:simpleType>
 	</xs:element>
-	<xs:element name="name" type="xs:string" />
+	<xs:element name="name" type="legalName" />
 	<xs:element name="took_office" type="xs:date" />
 	<xs:element name="left_office" type="xs:date" />
-	<xs:element name="party" type="xs:string" />
-	<xs:element name="vice_president" type="xs:string" />
+	<xs:element name="party" type="legalName" />
+	<xs:element name="vice_president" type="legalName" />
+
+	<!-- definition of reusable simple types -->
+	<xs:simpleType name="legalName">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([a-zA-Z\-\s)*" />
+			<xs:whiteSpace value="collapse" />
+		</xs:restriction>
+	</xs:simpleType>
 
 	<!-- definition of simple attributes -->
 	<xs:attribute name="date" type="xs:date" />
