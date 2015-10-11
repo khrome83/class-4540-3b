@@ -4,7 +4,7 @@
 	<xs:element name="number" type="xs:positiveInteger" />
 	<xs:element name="name" type="xs:normalizedString" />
 	<xs:element name="took_office" type="xs:date" />
-	<xs:element name="left_office" type="xs:date" nillable="true" />
+	<xs:element name="left_office" type="xs:date" />
 	<xs:element name="party" type="xs:normalizedString" />
 	<xs:element name="vice_president" type="xs:normalizedString" />
 
@@ -27,7 +27,7 @@
 				<xs:element ref="number" />
 				<xs:element ref="name" />
 				<xs:element ref="took_office" />
-				<xs:element ref="left_office" />
+				<xs:element ref="left_office" minOccurs="0"/>
 				<xs:element ref="party" />
 				<xs:element ref="term" minOccurs="1" maxOccurs="100"/>		
 			</xs:sequence>
