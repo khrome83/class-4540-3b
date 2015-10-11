@@ -5,8 +5,8 @@
     <president>
         <number>1</number>
         <name>George Washington</name>
-        <took_office> April 30, 1789</took_office>
-        <left_office>March 4, 1797</left_office>
+        <took_office>1789-04-30</took_office>
+        <left_office>1797-03-04</left_office>
         <party>no party</party>
         <term>
             <number>1</number>
@@ -21,8 +21,8 @@
     <president>
         <number>2</number>
         <name>John Adams</name>
-        <took_office>March 4, 1797</took_office>
-        <left_office>March 4, 1801</left_office>
+        <took_office>1797-03-04</took_office>
+        <left_office>1801-03-04</left_office>
         <party>Federalist</party>
         <term>
             <number>3</number>
@@ -33,8 +33,8 @@
     <president>
         <number>3</number>
         <name>Thomas Jefferson</name>
-        <took_office>March 4, 1801</took_office>
-        <left_office>March 4, 1809</left_office>
+        <took_office>1801-03-04</took_office>
+        <left_office>1809-03-04</left_office>
         <party>Democratic-Republican</party>
         <term>
             <number>4</number>
@@ -49,8 +49,8 @@
     <president>
         <number>4</number>
         <name>James Madison</name>
-        <took_office>March 4, 1809</took_office>
-        <left_office>March 4, 1817</left_office>
+        <took_office>1809-03-04</took_office>
+        <left_office>1817-03-04</left_office>
         <party>Democratic-Republican</party>
         <term>
             <number>6</number>
@@ -65,8 +65,8 @@
     <president>
         <number>5</number>
         <name>James Monroe</name>
-        <took_office>March 4, 1817</took_office>
-        <left_office>March 4, 1825</left_office>
+        <took_office>1817-03-04</took_office>
+        <left_office>1825-03-04</left_office>
         <party>Democratic-Republican</party>
         <term>
             <number>8</number>
@@ -81,8 +81,8 @@
     <president>
         <number>6</number>
         <name>John Quincy Adams</name>
-        <took_office>March 4, 1825</took_office>
-        <left_office>March 4, 1829</left_office>
+        <took_office>1825-03-04</took_office>
+        <left_office>1829-03-04</left_office>
         <party>Democratic-Republican</party>
         <term>
             <number>10</number>
@@ -93,8 +93,8 @@
     <president>
         <number>7</number>
         <name>Andrew Jackson</name>
-        <took_office>March 4, 1829</took_office>
-        <left_office>March 4, 1837</left_office>
+        <took_office>1829-03-04</took_office>
+        <left_office>1837-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>11</number>
@@ -109,8 +109,8 @@
     <president>
         <number>8</number>
         <name>Martin Van Buren</name>
-        <took_office>March 4, 1837</took_office>
-        <left_office>March 4, 1841</left_office>
+        <took_office>1837-03-04</took_office>
+        <left_office>1841-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>13</number>
@@ -121,8 +121,9 @@
     <president>
         <number>9</number>
         <name>William Henry Harrison</name>
-        <took_office>March 4, 1841</took_office>
-        <left_office>April 4, 1841</left_office>
+        <took_office>1841-03-04</took_office>
+        <left_office>1841-04-04</left_office>
+        <party>Whig</party>
         <term>
             <number>14</number>
             <vice_president>John Tyler</vice_president>
@@ -132,8 +133,8 @@
     <president>
         <number>10</number>
         <name>John Tyler</name>
-        <took_office>April 4, 1841</took_office>
-        <left_office>March 4, 1845</left_office>
+        <took_office>1841-04-04</took_office>
+        <left_office>1845-03-04</left_office>
         <party>Whig</party>
         <term>
             <number>14</number>
@@ -144,8 +145,8 @@
     <president>
         <number>11</number>
         <name>James K. Polk</name>
-        <took_office>March 4, 1845</took_office>
-        <left_office>March 4, 1849</left_office>
+        <took_office>1845-03-04</took_office>
+        <left_office>1849-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>15</number>
@@ -156,8 +157,8 @@
     <president>
         <number>12</number>
         <name>Zachary Taylor</name>
-        <took_office>March 4, 1849</took_office>
-        <left_office>July 9, 1850</left_office>
+        <took_office>1849-03-04</took_office>
+        <left_office>1850-07-09</left_office>
         <party>Whig</party>
         <term>
             <number>16</number>
@@ -168,8 +169,8 @@
     <president>
         <number>13</number>
         <name>Millard Fillmore</name>
-        <took_office>July 9, 1850</took_office>
-        <left_office>March 4, 1853</left_office>
+        <took_office>1850-07-09</took_office>
+        <left_office>1853-03-04</left_office>
         <party>Whig</party>
         <term>
             <number>16</number>
@@ -180,8 +181,8 @@
     <president>
         <number>14</number>
         <name>Franklin Pierce</name>
-        <took_office>March 4, 1853</took_office>
-        <left_office>March 4, 1857</left_office>
+        <took_office>1853-03-04</took_office>
+        <left_office>1857-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>17</number>
@@ -192,8 +193,8 @@
     <president>
         <number>15</number>
         <name>James Buchanan</name>
-        <took_office>March 4, 1857</took_office>
-        <left_office>March 4, 1861</left_office>
+        <took_office>1857-03-04</took_office>
+        <left_office>1861-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>18</number>
@@ -204,8 +205,8 @@
     <president>
         <number>16</number>
         <name>Abraham Lincoln</name>
-        <took_office>March 4, 1861</took_office>
-        <left_office>April 15, 1865</left_office>
+        <took_office>1861-03-04</took_office>
+        <left_office>1865-04-15</left_office>
         <party>Republican</party>
         <term>
             <number>19</number>
@@ -220,8 +221,8 @@
     <president>
         <number>17</number>
         <name>Andrew Johnson</name>
-        <took_office>April 15, 1865</took_office>
-        <left_office>March 4, 1869</left_office>
+        <took_office>1865-04-15</took_office>
+        <left_office>1869-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>20</number>
@@ -232,8 +233,8 @@
     <president>
         <number>18</number>
         <name>Ulysses S. Grant</name>
-        <took_office>March 4, 1869</took_office>
-        <left_office>March 4, 1877</left_office>
+        <took_office>1869-03-04</took_office>
+        <left_office>1877-03-04</left_office>
         <party>Republican</party>
         <term>
             <number>21</number>
@@ -248,8 +249,8 @@
     <president>
         <number>19</number>
         <name>Rutherford B. Hayes</name>
-        <took_office>March 4, 1877</took_office>
-        <left_office>March 4, 1881</left_office>
+        <took_office>1877-03-04</took_office>
+        <left_office>1881-03-04</left_office>
         <party>Republican</party>
         <term>
             <number>23</number>
@@ -260,8 +261,8 @@
     <president>
         <number>20</number>
         <name>James A. Garfield</name>
-        <took_office>March 4, 1881</took_office>
-        <left_office>September 19, 1881</left_office>
+        <took_office>1881-03-04</took_office>
+        <left_office>1881-09-19</left_office>
         <party>Republican</party>
         <term>
             <number>24</number>
@@ -272,8 +273,8 @@
     <president>
         <number>21</number>
         <name>Chester A. Arthur</name>
-        <took_office>September 19, 1881</took_office>
-        <left_office>March 4, 1885</left_office>
+        <took_office>1881-09-19</took_office>
+        <left_office>1885-03-04</left_office>
         <party>Republican</party>
         <term>
             <number>24</number>
@@ -284,8 +285,8 @@
     <president>
         <number>22</number>
         <name>Grover Cleveland</name>
-        <took_office>March 4, 1885</took_office>
-        <left_office>March 4, 1889</left_office>
+        <took_office>1885-03-04</took_office>
+        <left_office>1889-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>25</number>
@@ -296,8 +297,8 @@
     <president>
         <number>23</number>
         <name>Benjamin Harrison</name>
-        <took_office>March 4, 1889</took_office>
-        <left_office>March 4, 1893</left_office>
+        <took_office>1889-03-04</took_office>
+        <left_office>1893-03-04</left_office>
         <party>Republican</party>
         <term>
             <number>26</number>
@@ -308,8 +309,8 @@
     <president>
         <number>24</number>
         <name>Grover Cleveland</name>
-        <took_office>March 4, 1893</took_office>
-        <left_office>March 4, 1897</left_office>
+        <took_office>1893-03-04</took_office>
+        <left_office>1897-03-04</left_office>
         <party>Democratic</party>
         <term>
             <number>27</number>
@@ -320,8 +321,8 @@
     <president>
         <number>25</number>
         <name>William McKinley</name>
-        <took_office>March 4, 1897</took_office>
-        <left_office>September 14, 1901</left_office>
+        <took_office>1897-03-04</took_office>
+        <left_office>1901-09-14</left_office>
         <party>Republican</party>
         <term>
             <number>28</number>
@@ -336,8 +337,8 @@
     <president>
         <number>26</number>
         <name>Theodore Roosevelt</name>
-        <took_office>September 14, 1901</took_office>
-        <left_office>March 4, 1909</left_office>
+        <took_office>1901-09-14</took_office>
+        <left_office>1909-03-04</left_office>
         <party>Republican</party>
         <term>
             <number>29</number>
