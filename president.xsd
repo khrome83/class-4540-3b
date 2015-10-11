@@ -3,6 +3,7 @@
     Name: Zane C. Milakovic
     Date: 10/11/2015
     File: president.xsd
+	Scheme: Flat
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	<!-- definition of simple elements -->
