@@ -2,18 +2,11 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	<!-- definition of simple elements -->
 	<xs:element name="number" type="xs:positiveInteger" />
-	<xs:element name="name" type="legalName" />
+	<xs:element name="name" type="xs:normalizedString" />
 	<xs:element name="took_office" type="xs:date" />
-	<xs:element name="left_office" type="xs:date" />
-	<xs:element name="party" type="legalName" />
-	<xs:element name="vice_president" type="legalName" />
-
-	<!-- definition of reusable simple types -->
-	<xs:simpleType name="legalName">
-		<xs:restriction base="xs:normalizedString">
-			<xs:pattern value="([a-zA-Z\-\s)*" />
-		</xs:restriction>
-	</xs:simpleType>
+	<xs:element name="left_office" type="xs:date" nillable="true" />
+	<xs:element name="party" type="xs:normalizedString" />
+	<xs:element name="vice_president" type="xs:normalizedString" />
 
 	<!-- definition of simple attributes -->
 	<xs:attribute name="date" type="xs:date" />
