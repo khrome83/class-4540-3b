@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	<!-- definition of simple elements -->
-	<xs:element name="number" type="xs:integer">
-		<xs:simpleType>
-			<xs:restriction base="xs:integer">
-				<xs:minInclusive value="1" />
-			</xs:restriction>
-		</xs:simpleType>
-	</xs:element>
+	<xs:element name="number" type="xs:positiveInteger" />
 	<xs:element name="name" type="legalName" />
 	<xs:element name="took_office" type="xs:date" />
 	<xs:element name="left_office" type="xs:date" />
@@ -16,9 +10,8 @@
 
 	<!-- definition of reusable simple types -->
 	<xs:simpleType name="legalName">
-		<xs:restriction base="xs:string">
+		<xs:restriction base="xs:normalizedString">
 			<xs:pattern value="([a-zA-Z\-\s)*" />
-			<xs:whiteSpace value="collapse" />
 		</xs:restriction>
 	</xs:simpleType>
 
